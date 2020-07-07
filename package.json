@@ -1,0 +1,19 @@
+{
+  "name": "cellphone_authentication",
+  "version": "1.0.0",
+  "description": "핸드폰 인증 화면 구현하기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThreeSnakes/cellphone_authentication.git"
+  },
+  "author": "threesnakes <dev.select995@gmail.com> (dev.select995@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThreeSnakes/cellphone_authentication/issues"
+  },
+  "homepage": "https://github.com/ThreeSnakes/cellphone_authentication#readme"
+}
