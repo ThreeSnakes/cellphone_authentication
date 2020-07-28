@@ -12,6 +12,12 @@ module.exports = {
     path: __dirname + '/public',
     filename: "Bundle.js",
   },
+  module: {
+    rules: [{
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
+    }]
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
