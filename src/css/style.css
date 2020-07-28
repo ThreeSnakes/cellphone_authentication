@@ -1,11 +1,38 @@
 .header {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .main-title {
     margin-bottom: 5px;
+    font-weight: 500;
 }
 
 .sub-title {
     color: #00a1ff;
+}
+
+.input-section {
+    margin-top: 30px;
+}
+
+.input-label {
+    display: block;
+}
+
+.input {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 30px;
+    color: grey;
+    border: none;
+    border-bottom: solid grey 1px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
 }
